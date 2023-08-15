@@ -9,13 +9,25 @@
   }
   
 body {
-  background: url(./assets/Landau_HERO.jpeg) no-repeat center / cover;
+  background: url(./Landau_HERO.jpeg) no-repeat center / cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 5%;
   margin: 50px;
   align-items: center;
+}
+
+#backBtn {
+padding: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: var(--green);
+}
+
+a {
+  text-decoration: none;
+  align-self: flex-start;
 }
 
 body::before {
@@ -33,9 +45,12 @@ body::before {
 h1 {
   color: white;
   text-transform: capitalize;
+  font-size: 5rem;
 }
 
-
+input[type='checkbox'] {
+  visibility: hidden;
+}
 
 #newGame {
     border: 1px solid var(--green);
@@ -51,6 +66,13 @@ h1 {
 
 .checkBox {
     color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.checkBox :hover {
+    color: black;
+    cursor: pointer;
 }
 
 #newGame, #timer, #numberCounter {
@@ -65,7 +87,6 @@ h1 {
     background-color: var(--green);
     color: white;
     border: 1px solid white;
-    width: 100%;
 }
 
 #table {

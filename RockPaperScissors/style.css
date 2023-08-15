@@ -16,6 +16,17 @@ body {
     color: #fff;
 }
 
+#backBtn {
+    padding: 15px;
+      font-weight: bold;
+      color: white;
+      background-color: #222;
+    }
+    
+    a {
+      text-decoration: none;
+      align-self: flex-start;
+    }
 
 .title {
     margin-top: 20px;

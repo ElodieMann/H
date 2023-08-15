@@ -1,5 +1,5 @@
 let body = document.querySelector("body");
-let btn = document.querySelector("button");
+let btn = document.getElementById('start');
 let hidden = document.getElementById("hiddenWord");
 let wrongLetter = document.getElementById("wrongLetter");
 let hangMan = document.querySelectorAll(".figure");

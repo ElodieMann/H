@@ -10,6 +10,17 @@ body {
   text-align: center;
   background-color: #331153;
   color: white;
+  font-family: 'Outfit', sans-serif
+}
+
+#backBtn {
+  display: flex;
+  width: auto;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
 }
 
 #topSection {
@@ -20,13 +31,17 @@ body {
     gap: 30px;
 }
 
-button {
+#start {
     width: 20%;
     border-radius: 10px;
     padding: 8px;
     font-size: 20px;
     color:  #331153;
     border: none;
+}
+
+.chanceNumber {
+  font-size: 1.5rem;
 }
 
 section {
@@ -122,6 +137,12 @@ section {
   align-items: center;
 }
 
+#wrongLetter {
+  font-size: 2rem;
+}
+#hiddenWord {
+  font-size: 3rem;
+}
 
 @media only screen and (max-width: 600px) {
     button {

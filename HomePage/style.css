@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: 'Outfit', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  gap: 25px;
+}
+
+h1, h2, h3, p, #game {
+    z-index: 2;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Barriecito', cursive;
+
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 150px;
+}
+
+img {
+  width: 30;
+  height: 50vh;
+}
+
+img:hover {
+  opacity: 0.8;
+  transition: 0.4s ease;
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+    animation: anim 8s;
+   
+}
+
+@keyframes anim {
+    to {
+      top: -250px;
+      opacity: 1;
+    }
+  }
