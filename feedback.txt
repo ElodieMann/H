@@ -1,0 +1,12 @@
+
+
+Elodie El-baze : Gaming platform
+Project Structure:10/10
+HTML Structure:9/10
+CSS and Design: 8/10
+JS and DOM: 9/10
+Clarity: 7/10
+score: 9
+It is an impressive project for your first Hackathon!
+The animations in the homepage are really nice and the games logic is solid. 
+You structured your project in a way that it is simple, clear and very easy to understand. Amazing!
